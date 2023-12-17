@@ -5,6 +5,10 @@
 - [ ] RegisterPage
 - [ ] ForgotPasswordPage
 
+## APIS
+
+- [ ] api instances
+
 ## Store
 
 - [ ] authSlice
