@@ -10,6 +10,7 @@
     "@types/node": "^16.18.68",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
+    "prettier": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.0",
@@ -19,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prettier": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
