@@ -11,3 +11,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 | typescript       | 4.9.5   |
 | prettier         | 3.1.1   |
 | antd             | 5.12.2  |
+| @reduxjs/toolkit | 2.0.1   |
+| react-redux      | 9.0.4   |
