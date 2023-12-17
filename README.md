@@ -10,10 +10,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 | react-router-dom | 6.21.0  |
 | typescript       | 4.9.5   |
 | prettier         | 3.1.1   |
-
-## Available Pages
-
-- [ ] ErrorPage
-- [ ] LoginPage
-- [ ] RegisterPage
-- [ ] ForgotPasswordPage
+| antd             | 5.12.2  |
