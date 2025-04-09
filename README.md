@@ -12,16 +12,16 @@ Before you begin, ensure you have the following:
   - Set your Djuno Access Key in an environment variable:
 
     ```bash
-    REACT_APP_DJUNO_ACCESS_KEY=your-djuno-access-key
+    REACT_APP_DJUNO_WALLET_ACCESS_KEY=your-djuno-access-key
     ```
 
-## Installation
+## 🛠️ Getting Started (Local Development)
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/wallet_sdk.git
-   cd wallet_sdk
+   git clone https://github.com/Djuno-Ltd/djuno-wallet-starterkit.git
+   cd djuno-wallet-starterkit
    ```
 
 2. Install dependencies:
@@ -30,11 +30,13 @@ Before you begin, ensure you have the following:
    npm install
    ```
 
-3. Set up the `.env` file and add your Djuno Access Key:
+3. Set up the `.env.local` file and add your Djuno Access Key:
 
    ```bash
-   REACT_APP_DJUNO_ACCESS_KEY=your-djuno-access-key
+   REACT_APP_DJUNO_WALLET_ACCESS_KEY=your-djuno-access-key
    ```
+
+- Get or create a new wallet [access key](https://djuno.io/wallet-api/api-keys) from your Djuno Cloud panel
 
 4. Run the application:
 
@@ -43,6 +45,20 @@ Before you begin, ensure you have the following:
    ```
 
 Your application should now be live at [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🐳 Running with Docker Compose
+
+If you'd like to run the app as a production-ready static site served by Nginx:
+
+1. **Ensure your `.env.local` is set up** as shown above.
+
+2. **Build and run the container:**
+
+```bash
+docker compose up --build
+```
 
 ## Dependencies
 

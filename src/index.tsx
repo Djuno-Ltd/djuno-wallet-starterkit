@@ -8,7 +8,7 @@ import { WalletProvider } from '@djuno/wallet-hook'
 
 const clientConfigs = {
   endpointUrl: 'https://wallets.djuno.cloud',
-  accessKey: process.env.REACT_APP_DJUNO_ACCESS_KEY,
+  accessKey: process.env.REACT_APP_DJUNO_WALLET_ACCESS_KEY,
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)

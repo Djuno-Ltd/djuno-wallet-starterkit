@@ -1,0 +1,16 @@
+# docker compose up --build
+# docker push djuno-wallet-starter-kit:latest
+
+services:
+  djuno-wallet-starter-kit:
+    platform: linux/amd64
+    image: djuno-wallet-starter-kit:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_DJUNO_WALLET_ACCESS_KEY: ${REACT_APP_DJUNO_WALLET_ACCESS_KEY}
+    ports:
+      - '8080:80'
+    env_file:
+      - .env.local
